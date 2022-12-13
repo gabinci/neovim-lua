@@ -1,0 +1,6 @@
+require('settings')
+require('nvim-tree-config')
+require('packer-config')
+require('colorschemes-config.monokai')
+require('colorschemes-config.airline')
+require('mappings')
