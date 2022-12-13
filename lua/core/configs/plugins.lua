@@ -43,6 +43,7 @@ return packer.startup(function(use)
 	use("nvim-tree/nvim-tree.lua")
 	use("nvim-tree/nvim-web-devicons")
 	use("nvim-lualine/lualine.nvim")
+
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
 	end
